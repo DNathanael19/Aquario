@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Calculadora</title>
+    <link rel='stylesheet' type='text/css' href='aquario.css'>
+    <script src="aquario.js"></script>
+</head>
+<body>
+    <header class="Peixes">
+        <div class="Menu">
+            <h1>Calcule o tamanho do seu aquario</h1>
+            <a href="aquario.html">Home</a>
+        </div>
+
+        <h2>Como calcular ?</h2>
+        <p>Para quem é iniciante no aquarismo, algumas dúvidas podem surgir. 
+        Afinal, mesmo que alguns peixes sejam resistentes, pequenos descuidos podem afetar a saúde deles. Por isso, saber como calcular a litragem do aquário é essencial para oferecer aos pets um bom ambiente.</p>
+
+        <h2>Como saber a litragem do aquário</h2>
+        <p>Para calcular a quantidade de litros de água de um aquário, basta saber as dimensões do recipiente.</p>
+
+        <p>O primeiro passo é multiplicar o comprimento pela largura, e em seguida pela altura. As medidas utilizadas no cálculo devem estar em centímetros. 
+        Com o valor obtido, deve-se dividir o resultado por 1.000. Dessa forma, se obtém a capacidade em litros do aquário. 
+        Agora que você já sabe como calcular a litragem do aquário, basta escolher os seus peixes!
+        Por fim, saiba a quantidade de litros que os pets da sua escolha necessitam e foque nas dimensões do aquário para acertar o volume que o recipiente suporta.</p>
+
+        <div class="CalculoAquario">
+            <h2>Calcular</h2>
+            <input type="text" id="altura" placeholder="Altura em cm"/><br>
+            <input type="text" id="largura" placeholder="Largura em cm"/><br>
+            <input type="text" id="comprimento" placeholder="Comprimento em cm"/><br>
+            <button type="button" onclick="Calculo()">Resultado</button>
+        </div>
+
+        <div class="CalculoAquario">
+            <p id="res1"></p>
+            <p id="res2"></p>
+            <p id="res3"></p>
+        </div>
+    </header>
+</body>

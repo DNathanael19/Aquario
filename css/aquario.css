@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+*{
+    text-align: justify;
+    justify-content: space-evenly;
+    background-color: darkslategray;
+    margin-bottom: 2%;
+}
+
+.Textos h3{
+    background: transparent;
+    text-align: center;
+    margin-left: 2%;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Textos h2{
+    background: transparent;
+    margin-left: 2%;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.Textos p{
+    background: transparent;
+    padding: 0% 5%;
+    color: silver;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Textos ul{
+    background: transparent;
+    padding: 0% 8%;
+    color: silver;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Textos ul li{
+    background: transparent;
+}
+
+.Menu{
+    box-shadow: rgba(192, 192 , 192 ,0.1) 0px 3px 0px;
+    backdrop-filter: blur(30px);
+    display: flex;
+}
+
+.Menu h1{
+    background: transparent;
+    font-size: 40px;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Menu a{
+    margin-top: 2.8%;
+    font-size: 18.5px;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.3;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+
+.Menu a:hover{
+    box-shadow: darkslategray 0px 5px 10px;
+    opacity: 1.5;
+}
+
+.Peixes{
+    background: transparent;
+    padding: 0% 5%;
+    color: silver;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Peixes h2{
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    text-align: center;
+}
+
+.CalculoAquario{
+    text-align: center;
+}
+
+.CalculoAquario input{
+    width: auto;
+    height: 18%;
+    border-color: azure;
+    border-radius: 15px;
+    color: silver;
+    padding: 1% 1%;
+}
+
+.CalculoAquario button{
+    height: 18%;
+    width: auto;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.5;
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    line-height: 35px;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+
+.CalculoAquario button:hover{
+    box-shadow: darkslategray 0px 5px 10px;
+    opacity: 1.0;
+}
+
+.CalculoAquario p{
+    background: transparent;
+    padding: 0% 5%;
+    color: silver;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#PxPalhaco{
+    text-align: center;
+}
+
+#PxPalhaco img{
+    height: 30%;
+    width: 30%;
+}
+
+#PxLeao{
+    text-align: center;
+}
+
+#PxLeao img{
+    height: 30%;
+    width: 30%;
+}
+
+#Dorys{
+    display: flex;
+}
+
+#Dory img {
+    margin-right: 30%;
+    height: 90%;
+    width: 70%;
+}
+
+#DoryNemo img {
+    margin-left: 30%;
+    height: 90%;
+    width: 70%;
+}
+
+#PxBeta{
+    text-align: center;
+}
+
+#PxBeta img{
+    height: 30%;
+    width: 30%;
+}
+
+#PxPlatis{
+    text-align: center;
+}
+
+#PxPlatis img{
+    height: 30%;
+    width: 30%;
+}
+
+#PxNeon{
+    text-align: center;
+}
+
+#PxNeon img{
+    height: 30%;
+    width: 30%;
+}
+
